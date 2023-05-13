@@ -4,7 +4,7 @@ PFont fuenteBarco;
 int pantalla;
 float d1;
 int r1;
-boolean reiniciar = false;
+boolean reiniciar;
 
 void setup() {
   size(640, 480);
@@ -19,6 +19,7 @@ void setup() {
   pantalla = 1;
   d1 = dist(mouseX, mouseY, 410, 425);
   r1 = 45 / 2; 
+  reiniciar = false;
 }
 
 void draw() {
